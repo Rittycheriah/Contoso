@@ -5,6 +5,11 @@ using System.Web;
 
 namespace ContosoUniversity.Models
 {
+    public enum Grade
+    {
+        A, B, C, D, F
+    }
+
     public class Enrollment
     {
         public int EnrollmentID { get; set; }
